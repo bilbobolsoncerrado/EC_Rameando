@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Calculadora {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+      
+        
         System.out.print("Introduce el primer número: ");
         int num1 = scanner.nextInt();
 
@@ -14,5 +15,8 @@ public class Calculadora {
 
         int suma = num1 + num2;
         System.out.println("La suma de los números es: " + suma);
+        int multiplicacion = num1 * num2;
+        System.out.println("La multiplicación de los números es: " + multiplicacion);
+
     }
 }
