@@ -14,5 +14,8 @@ public class Calculadora {
 
         int suma = num1 + num2;
         System.out.println("La suma de los números es: " + suma);
+        int multiplicacion = num1 * num2;
+        System.out.println("La multiplicación de los números es: " + multiplicacion);
+
     }
 }
